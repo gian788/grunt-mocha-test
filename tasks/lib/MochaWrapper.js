@@ -51,6 +51,8 @@ function MochaWrapper(params) {
         mocha.loadFiles();
       }
       var mochaSuite = mocha.suite;
+      if(mocha.options.timeout)
+        mochaSuite._timeout = mocha.options.timeout;
       var mochaOptions = mocha.options;
       var mochaRunner = new Mocha.Runner(mochaSuite);
       var mochaReporter = new mocha._reporter(mochaRunner);
