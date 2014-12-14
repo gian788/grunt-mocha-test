@@ -6,7 +6,7 @@
 [![devDependency Status](https://david-dm.org/pghalliday/grunt-mocha-test/dev-status.svg?theme=shields.io)](https://david-dm.org/pghalliday/grunt-mocha-test#info=devDependencies)
 [![peerDependency Status](https://david-dm.org/pghalliday/grunt-mocha-test/peer-status.svg?theme=shields.io)](https://david-dm.org/pghalliday/grunt-mocha-test#info=peerDependencies)
 
-A grunt task for running server side mocha tests
+A grunt task for running server side mocha tests, with **configurable timeout**
 
 ## Usage
 
